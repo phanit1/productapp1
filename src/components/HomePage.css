@@ -1,0 +1,15 @@
+.card-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping to the next line */
+  }
+  
+  .card {
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+    width: 300px; /* Set a fixed width for each card */
+    margin-right: 10px; /* Add margin between cards */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
