@@ -1,15 +1,21 @@
-.card-container {
-    display: flex;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    white-space: nowrap; /* Prevent items from wrapping to the next line */
+.card-container1 {
+  width: 100%; /* Ensures the container takes full width */
+  max-width: 1200px; /* Limits the maximum width of the container */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 20px; /* Adds padding inside the container */
+  box-sizing: border-box; /* Includes padding and border in element's total width and height */
   }
-  
-  .card {
-    flex: 0 0 auto; /* Prevent cards from shrinking */
-    width: 300px; /* Set a fixed width for each card */
-    margin-right: 10px; /* Add margin between cards */
-    border: 1px solid #ccc;
-    border-radius: 5px;
+
+  .card-container {
+    /* max-height: 400px; Example height; adjust as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Optional: Add border for visual clarity */
+}
+
+.card {
     padding: 10px;
-  }
-  
+    margin: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
