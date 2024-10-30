@@ -1,14 +1,14 @@
 import ResponsiveAppBar from "./ResponsiveAppBar";
 
-function SampleHomePage() {
+function AboutUs() {
   return (
     <>
       <ResponsiveAppBar />
       <div align="center">
-        <h1>Products Page</h1>
+        <h1>About Us Page</h1>
       </div>
     </>
   );
 }
 
-export default SampleHomePage;
+export default AboutUs;

@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { useNavigate } from 'react-router-dom';
 
-const pages = ['Categories'];
+const pages = ['AboutUs'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -95,7 +95,7 @@ function ResponsiveAppBar() {
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                     <Button
                 key={page}
-                onClick={()=> history('/categories')}
+                onClick={()=> history('/aboutus')}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
@@ -128,7 +128,7 @@ function ResponsiveAppBar() {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={()=> history('/categories')}
+                onClick={()=> history('/aboutus')}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
